@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hello world"
+echo "this is to know how merge conflict occures"
+
