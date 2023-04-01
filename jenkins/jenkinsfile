@@ -9,11 +9,11 @@ pipeline{
 		      '''
                 }
             }
-            stage('Build-Memory details'){
+           stage('Build-Memory details'){
                 steps{
 		    sh '''
-                    echo "MEMORY DETAILS"
-                    free
+                    echo "disk utilisation"
+                    du -sch *
 		    '''
                 }
             }
