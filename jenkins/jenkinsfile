@@ -1,6 +1,10 @@
 pipeline{
-    agent any
-        stages{
+    agent {
+          node1
+}
+
+
+       stages{
             stage('Build-System details'){
                 steps{
 		    sh '''
