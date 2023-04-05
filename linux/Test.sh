@@ -1,3 +1,2 @@
-#!bin/bash
-echo "Merge Conflict Check"
-
+#!bin/bash/
+echo "Hello"
