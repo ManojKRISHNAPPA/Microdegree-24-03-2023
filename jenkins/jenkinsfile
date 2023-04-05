@@ -1,6 +1,6 @@
 pipeline{
     agent { 
-             Node-1
+             label 'Node-1'
 
         stages{
             stage('Build-System details'){
