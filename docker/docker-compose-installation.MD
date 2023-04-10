@@ -54,3 +54,9 @@ services:
     deploy:
       replicas: 10
 ```
+
+4. docker-stack deployment commands
+
+```sh
+docker stack deploy -c docker-compose.yaml <desired name>
+```
