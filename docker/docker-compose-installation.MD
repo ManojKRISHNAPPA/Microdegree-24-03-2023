@@ -36,4 +36,21 @@ services:
     ports:
       - "8081:80"
 ```
+6.Example to test
+```sh
+version: '3.6'
+services:
+  app:
+    image: nginx
+    ports:
+      - "80:80"
+    deploy:
+      replicas: 10
 
+  web:
+    image: httpd
+    ports:
+      - "8081:80"
+    deploy:
+      replicas: 10
+```
