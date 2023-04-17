@@ -1,8 +1,8 @@
 pipeline{
-    agent { 
-             label 'Node-1'
-             
-           }  
+    agent {
+	label 'Node-1'
+}
+
         stages{
             stage('Build-System details'){
                 steps{
